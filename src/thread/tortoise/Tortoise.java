@@ -8,7 +8,7 @@ public class Tortoise extends Thread {
 
     private final Thread tortoise;
 
-    private Tortoise() {this.tortoise = new Thread(this, "tortoise");}
+    public Tortoise() {this.tortoise = new Thread(this, "tortoise");}
 
     public Thread getTortoise() { return tortoise;}
 
